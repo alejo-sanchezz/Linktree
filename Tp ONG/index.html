@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=patitas, initial-scale=1.0">
+    <title>Patitas de Caballito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+      <nav>
+        <ul id="FlexNav">
+          <img src="Imagenes/patita-blanca.png" alt="Logo header patitas de Caballito">
+          <li><a href="#inicio" class="link">Inicio</a></li>
+          <li><a href="#quienes-somos" class="link">Quiénes somos</a></li>
+          <li><a href="#que-hacemos" class="link">Qué hacemos</a></li>
+          <li><a href="#contacto" class="link"> Contacto</a></li>
+          <li><a href="#donar" class="link"> Donar</a></li>
+          <button onclick="flexToggle()">▼</button>
+          </ul>
+      </nav>
+   </header>
+
+  <main>
+    
+    <section id="inicio">
+      <img src="Imagenes/Perro y gato.jpg" alt="Perro y gato">
+      <div class="texto-portada">
+      <h1>Patitas de Caballito</h1>
+      <h2>Rescatamos, cuidamos, adoptamos</h2>
+      <p>Somos una ONG dedicada al rescate y la adopción de perros y gatos callejeros.</p>
+      <!-- <img src="Imagenes/logo-patita-blanco.png" alt="Logo de Patitas de Caballito">-->
+      <a href="#donar" class="boton">¡Sumate!</a>
+    </div>
+    </section>
+
+    <section id="quienes-somos">
+      <section class="bloque">
+      <div class="historia">
+
+    <div class="historia-texto">
+    <h2>Quiénes somos</h2>
+    <h3>Nuestra historia</h3>
+    <p>
+      Patitas de Caballito nació en 2018 cuando un grupo de jóvenes encontró una camada
+      de cachorros abandonada cerca de Parque Centenario. Lo que empezó como un hogar de
+      tránsito improvisado en un garaje se convirtió en una organización que hoy rescata,
+      cuida y da en adopción a cientos de perros y gatos.
+    </p>
+    <p>
+      Creemos que todos los animales merecen una familia y una segunda oportunidad.
+    </p>
+    </div>
+    <img src="Imagenes/gato animado.png" alt="Gato animado" height="200px">
+    </div>
+      </section>
+
+
+      <section class="bloque gris">
+    <div class="columnas">
+      <div class="columna">
+        <h3>Nuestra misión</h3>
+        <p>
+          Rescatar animales en situación de calle o maltrato, brindarles atención
+          veterinaria y encontrarles un hogar responsable.
+        </p>
+      </div>
+      <div class="columna">
+        <h3>Nuestra visión</h3>
+        <p>
+          Ser una comunidad donde ningún animal viva abandonado y la adopción
+          responsable sea la primera opción.
+        </p>
+      </div>
+      <div class="columna">
+      <h3>Nuestros valores</h3>
+      <ul>
+      <li>Respeto por todos los seres vivos</li>
+      <li>Compromiso con cada rescate</li>
+      <li>Adopción responsable</li>
+      <li>Trabajo en equipo y transparencia</li>
+    </ul>
+      </div>
+    </div>
+      </section>
+  </section>
+
+    
+    <section id="que-hacemos" class="bloque">
+    <div>
+      <h2> Que hacemos?</h2>
+        <p>Trabajamos todos los días para que ningún animal de Caballito se quede sin hogar.</p>
+
+  <div class="tarjetas">
+
+    <div class="tarjeta">
+      <h3>🐶 Rescate</h3>
+      <p>Retiramos perros y gatos en situación de calle o maltrato.</p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>🏠 Hogares de tránsito</h3>
+      <p>Familias voluntarias los cuidan hasta que encuentran un hogar definitivo.</p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>❤️ Adopción responsable</h3>
+      <p>Entrevistas, seguimiento y jornadas de adopción en plazas del barrio.</p>
+    </div>
+
+    <div class="tarjeta">
+      <h3>💉 Salud y castraciones</h3>
+      <p>Vacunación, desparasitación y campañas de castración a bajo costo.</p>
+    </div>
+    </div>
+    </section>
+
+    <section id="contacto" class="bloque gris">
+      <div class="contenido">
+          <div class="contacto-form">
+            <h2>Escribinos</h2>
+            <form>
+            <p>Email</p>
+            <input type="email">
+            <p>Nombre</p>
+            <input type="text">
+            <p>Apellido</p>
+            <input type="text">
+            <p>Telefono</p>
+            <input type="tel">
+            <p>Dejanos tu mesaje</p>
+            <input type="text" style="width: 100%; height: 120px;">
+            <input type="submit"> 
+
+            </form>
+          </div>
+        </div>
+        </section>
+    
+    <section id="donar" class="bloque"></section >
+    <h2>Donar</h2>
+    <p>Tu ayuda le cambia la vida a un animal.Con tu donación podemos 
+      seguir rescatando y cuidando a los próximos animalitos que lleguen</p>
+      <h3>¿En qué se usa lo que donás?</h3>
+    <ul>
+      <li>$5.000: Una vacuna</li>
+      <li>$15.000: Una castracion</li>
+      <li>$30.000: Un mes de alimento para un animal en transito</li>
+    </ul>
+    <p> <button onclick="abrirModal()">Donar</button></p>
+     <h3>Donar por transferencia</h3>
+    <p><strong>Alias:</strong> patitas.caballito</p>
+    <p><strong>Titular:</strong> Patitas de Caballito</p>
+
+  </main>
+  <footer> 
+          <div class="footer-contacto">
+            <h1>Datos de contacto</h1>
+            <h2>Contacto</h2>
+            <h3>Donde estamos</h3>
+            <p>📍 Jose Bonifacio 820</p>
+            <p>🕗 8hs - 17hs</p>
+            <p>✉️ contacto@PatitasDeCaballito.ong</p>
+            <p>📞 +11-2334-4556</p>
+            <p>Instagram: @PatitasDeCaballito</p>
+            <a class="imagen-maps" href="https://maps.app.goo.gl/WAUecwwr6urgc3mq9" target="_blank"> 
+            <img src="Imagenes/Maps.png" alt="Ubicacion"></a>
+          </div>
+          <div class="footer-nav">
+              <ul class="footer-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes somos</a></li>
+                <li><a href="#que-hacemos">Qué hacemos</a></li>
+                <li><a href="#contacto"> Contacto</a></li>
+                <li><a href="#donar"> Donar</a></li>
+              </ul>
+          </div>
+          <div class="footer-extra">
+            <h3>Suscribite para recibir novedades</h3>
+            <p>Tu email</p>
+            <input type="email">
+            <button>Suscribirme</button>
+
+            </div>
+        </footer>
+
+    <script src="script.js"> </script>
+</body>
+</html>
